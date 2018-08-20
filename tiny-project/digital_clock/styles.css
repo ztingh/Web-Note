@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background-image: url('./pattern.svg');
+}
+.main{
+  position: relative;
+  width: 400px;
+  height: 150px;
+  background: #C6C4C6;
+  margin: 0 auto;
+  margin-top: 150px;
+  padding: 25px;
+}
+
+.badge {
+  background-color: #DC5B55;
+  color: white;
+  text-align: center;
+  width: 25%;
+  padding: 5px 0;
+  font-family: sans-serif;
+
+  position: absolute;
+  top: -15px;
+  left: 37.5%;
+}
+
+.clock{
+  width: 100%;
+  height: 100%;
+  background-color: #ECEBEC;
+  text-align: center;
+  padding-top: 30px;
+  font-size: 55px;
+  font-family: 'Orbitron';
+  border-radius: 4px;
+}
