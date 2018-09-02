@@ -1,0 +1,102 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Asap', sans-serif;
+  background-color: #21222B;
+}
+
+h1 {
+  padding: 20px 0;
+  background-color: rgb(240, 240, 240);
+  text-align: center;
+}
+
+
+.score-board {
+  position: relative;
+  border: 1px solid white;
+  width: 250px;
+  height: 100px;
+  margin: 0 auto;
+  margin-top: 20px;
+  color: white;
+  font-size: 50px;
+  padding-top: 20px;
+  text-align: center;
+}
+
+.badge {
+  font-size: 20px;
+  padding: 3px 5px;
+  background-color: #CF363E;
+  text-align: center;
+}
+
+#user-label{
+  position: absolute;
+  top: 35px;
+  left: -25px;
+}
+
+#computer-label{
+  position: absolute;
+  top: 35px;
+  left: 225px;
+}
+
+.score-board > span {
+  display: inline-block;
+}
+
+.result {
+  color: white;
+  font-size: 50px;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.choices {
+  width: 400px;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  margin-top: 30px;
+}
+
+.choice:hover{
+}
+
+.choice > img{
+  display: block;
+  width: 100%;
+  padding: 20px;
+}
+
+#action-message {
+  color: white;
+  text-align: center;
+  padding-top: 30px;
+  font-size: 30px;
+}
+
+.green-border {
+  border-radius: 80px;
+  border: 4px solid rgb(30, 247, 19);
+  box-shadow: 0 0 10px rgb(30, 247, 19);
+}
+
+.red-border {
+  border-radius: 80px;
+  border: 4px solid rgb(247, 56, 56);
+  box-shadow: 0 0 10px rgb(247, 56, 56);
+}
+
+.gray-border {
+  border-radius: 80px;
+  border: 4px solid rgb(123, 129, 123);
+  box-shadow: 0 0 10px rgb(123, 129, 123);
+}
